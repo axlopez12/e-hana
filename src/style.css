@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+}
+input:hover, button:hover, input:focus, button:focus {
+    outline: 0;
+}
+#todoApp {
+    max-width: 320px;
+    margin: 20px auto;
+}
+#todoApp  h1 {
+    margin: 0;
+    text-align: center;
+}
+#todoApp  h3 {
+    margin: 13px 0
+}
+#todoApp .todoInput  {
+    display: block;
+    border: 2px solid #000;
+    padding: 12px 10px;
+    width: 100%;
+}
+#todoApp button {
+    background: #6f99f8;
+    color: #fff;
+    border: 0 palegoldenrod;
+    padding: 10px 20px;
+    border-radius: 6px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+ul {
+    padding: 0;
+}
+ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
